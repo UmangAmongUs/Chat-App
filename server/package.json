@@ -2,14 +2,18 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "scripts": {
-    "server": "nodemon server.js"
-  },
   "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.9.0",
@@ -20,5 +24,6 @@
     "mongoose": "^9.1.5",
     "nodemon": "^3.1.11",
     "socket.io": "^4.8.3"
-  }
+  },
+  "devDependencies": {}
 }
